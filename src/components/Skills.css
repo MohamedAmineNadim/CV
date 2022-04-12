@@ -1,0 +1,10 @@
+.Skills {
+    margin: var(--spacing-2) 0;
+}
+
+.Skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}

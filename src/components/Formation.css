@@ -1,0 +1,34 @@
+.Formation {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.Formation__Header {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    max-width: 1300px;
+}
+
+.Formation__Title {
+    color: var(--date-bg-color);
+    font-weight: var(--body-weight-2);
+}
+
+.Formation__Date {
+    color: var(--date-bg-color);
+    font-weight: var(--body-weight-2);
+}
+
+.Formation__Ecole {
+    color: #93999e;
+    font-size: 25; /* A revoir */
+}
+
+.Formation__Desc {
+    padding: 2px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    font-weight: var(--body-weight-1);
+}

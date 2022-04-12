@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors & fonts */
+  /* light mode */
+  --body-bg-color: #c3cee4;
+  --profile-bg-color: #42a0c8;
+  --sidebar-bg-color: #71788f;
+  --sidebar-text-color: #acdcec;
+  --main-text-color: #3b577c;
+  --title-color: #f7eee2;
+  --date-bg-color: #f0fcf1;
+  --icon-color: var(--sidebar-text-color);
+
+  --body-font: "Montserrat", "Sans-serif";
+  --body-weight--2: 100;
+  --body-weight--1: 200;
+  --body-weight-0: 300;
+  --body-weight-1: 400;
+  --body-weight-2: 500;
+  --body-weight-3: 700;
+  --h1-font-size: 1.7rem;
+  --h2-font-size: 1.3rem;
+  --h3-font-size: 1.1rem;
+  --h4-font-size: 1rem;
+
+  /* dark mode */
+
+  /* helpers */
+  --spacing-1: 0.4rem;
+  --spacing-2: 0.8rem;
+  --spacing-3: 1.2rem;
+  --spacing-4: 1.5rem;
+  --spacing-5: 2rem;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 200;
+  background-color: var(--body-bg-color);
+  color: var(--sidebar-text-color);
+}
+
+h1, h2, h3{
+  margin-bottom: var(--spacing-1);
+  font-weight: var(--body-weight-1);
+  color: var(--title-color);
+}
+
+/* grids */
+@media screen and (min-width:720px){
+  .grid__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+/* layouts */
+
+.sidebar {
+  height: 1520px;
+  padding: 1.5rem;
+  background-color: var(--sidebar-bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin-bottom: var(--spacing-1);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-weight: var(--body-weight-2);
+  text-transform: uppercase;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-4);
+  font-size: var(--h2-font-size);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: var(--spacing-2);
+}
+
+/* icons */
+.Star {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  position: relative;
+  bottom: 7px;
+}
+
+.Star-hidden {
+  display: none;
+}
+
+.Icon {
+  top: 6px;
+  position: relative;
+  margin-left: 2%;
+}
+
+/* Main bar */
+.Profile {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+  top: 2%;
+  color: var(--main-text-color);
+  font-weight: var(--body-weight-1);
+  max-width: 1300px;
+  align-items: stretch;
+}
+
+.Profile__Infos {
+  letter-spacing: 1.5px;
+  margin-top: var(--spacing-5);
+  margin-bottom: var(--spacing-5);
+}
+
+.Main__Titles {
+  color: var(--date-bg-color);
+  text-align: left;
+  padding-bottom: var(--spacing-1);
+  max-width: fit-content;
+  padding: 5px;
+  background-color: var(--sidebar-bg-color);
+}
+
+.Realisations {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5%;
+  font-size: var(--h3-font-size);
+}

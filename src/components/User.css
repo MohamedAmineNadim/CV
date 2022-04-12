@@ -1,0 +1,35 @@
+.user {
+    text-align: center;
+}
+
+.user__avatar__container {
+    position: relative;
+    bottom: 10px;
+}
+
+.user__avatar {
+    border-radius: 50%;
+    background-color: #ffe0df;
+    width: 250px;
+    padding: 5px;
+}
+
+.user__infos {
+    text-align: left;
+    padding: var(--spacing-3) 0 var(--spacing-1) 0;
+}
+
+.user__info {
+    display: flex;
+}
+
+.user__info_svg {
+    color: var(--icon-color);
+    margin-right: 1rem;
+}
+
+.Icon__Infos {
+    position: relative;
+    bottom: 2px;
+    margin-right: 1%;
+}
