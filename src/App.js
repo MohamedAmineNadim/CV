@@ -21,22 +21,6 @@ function App() {
           <Profile/>
         </div>
       </div>
-
-      {/*react, material ui, react-html2pdf*/}
-      {/*variables css*/}
-      {/*colonne de gauche :*/}
-        {/*détails perso - user*/}
-        {/*compétences - skills*/}
-        {/*langues - skills*/}
-        {/*centres d'intêréts - interests*/}
-
-     {/*colonne de droite :*/}
-        {/*profil - profile*/}
-        {/*formations - academic bg*/}
-        {/*expériences pro - experiences*/}
-
-      {/*light/dark mode*/}
-      {/*génération de pdf*/}
     </div>
   );
 }

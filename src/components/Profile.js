@@ -35,7 +35,8 @@ function Profile() {
         {/* Expérience professionnelle */}
         <div className="Profile__Infos">
           <h1 className="Main__Titles">Expérience professionnelle</h1>
-          <Formation titre="Employé polyvalent" date="juil.2021 - févr. 2022" etablissement="Domino's Pizza, Valenciennes" desc="Job étudiant. Ouverture/Fermeture du magasin. Prise de commandes et livraison."/>
+          <Formation titre="Stage Développeur Fullstack" date="mai 2022 - juil 2022" etablissement="Leroy Merlin, Lezennes" desc="Stage de fin d'études DEUST IOSI. Contrôle du balisage et de l'étiquettage en rayon des produits. Traitement de la data et automatisation du processus de correction de la data."/>
+          <Formation titre="Employé polyvalent" date="juil 2021 - févr 2022" etablissement="Domino's Pizza, Valenciennes" desc="Job étudiant. Ouverture/Fermeture du magasin. Prise de commandes et livraison."/>
           <Formation titre="Stage ouvrier" date="juin 2019 - sept. 2019" etablissement="ZEALOUS, Rabat, Maroc" desc="Découverte du monde de l'industrie. Manipulation de machines de formage à chaud de moules en plastique, manipulation de machines de découpe manuel et au laser, inventaire des dépôts et rapport des tâches quotidiennes des ouvriers."/>
         </div>
     </div>
