@@ -64,7 +64,7 @@ h1, h2, h3{
 /* layouts */
 
 .sidebar {
-  height: 1520px;
+  height: 1680px;
   padding: 1.5rem;
   background-color: var(--sidebar-bg-color);
 }
@@ -132,6 +132,7 @@ li {
   font-weight: var(--body-weight-1);
   max-width: 1300px;
   align-items: stretch;
+  max-height: fit-content;
 }
 
 .Profile__Infos {

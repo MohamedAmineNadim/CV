@@ -11,9 +11,6 @@ function App() {
     <div className="App">
       <div className="grid__container">
         <div className="sidebar">
-          <div className="actions">
-            <a href="./files/CV NADIM Mohamed Amine.pdf" download="CV NADIM Mohamed Amine.pdf">Print</a>
-          </div>
           <User/>
           <Skills/>
         </div>
